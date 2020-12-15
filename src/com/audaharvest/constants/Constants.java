@@ -1,0 +1,90 @@
+package com.audaharvest.constants;
+
+import com.audaharvest.model.ConstantParameters;
+
+public class Constants {
+	
+	public static final String COMMA_DELIMITER="|";
+	public static final String NEW_LINE_SEPERATOR="\n";
+	public static final String FILE_HEADER="Sr|Year|Make|Model|Seller's phone number|Trim|Transmission|Engine|Price|Odometer|Dealer Name| City| Province| Zip code(for toll-free)|Stock number|VIN|Vehicle features|Descriptions/Options|Make Model Year Detail|Seller name and location|Private or dealer flag| Website|Bodystyle|Exterior Color|Interior Color|Drivetrain|Doors|Passengers|Fuel|Model Code|Pub Code|Edition";
+	public static final String GROUP = "Group";
+	public static final String URL = "URL";
+	public static final String ROOT_URL = "Root URL";
+	public static final String MANUFACTURER = "Make";
+	public static final String MODEL = "Model";
+	public static final String YEAR = "Year";
+	public static final String BODYSTYLE = "Bodystyle";
+	public static final String DOORS = "Doors";
+	public static final String PASSENGERS = "Passengers";
+	public static final String ENGINE = "Engine";
+	public static final String FUEL = "Fuel";
+	public static final String EXTERIOR_COLOR = "Exterior Color";
+	public static final String INTERIOR_COLOR = "Interior Color";
+	public static final String DRIVETRAIN = "Drivetrain";
+	public static final String SALES_NUMBER = "Sales Number";
+	public static final String TRANSMISSION = "Transmission";
+	public static final String STOCK_NUM = "Stock Number";
+	public static final String PRICE = "Price";
+	public static final String VIN = "VIN";
+	public static final String MILEAGE = "Mileage";
+	public static final String LOCATION = "Location";
+	public static final String GROUP_G1 = "G";
+	public static final String GROUP_G2 = "G2";
+	public static final String GROUP_G3 = "G3";
+	public static final String GROUP_G4 = "G4";
+	public static final String GROUP_G2_WIX = "G2WIX";
+	public static final String GROUP_JSON_INVENTORY = "JI";
+	public static final String GROUP_JASON_LINK_BUILDER_G4= "JsonLinkBuilderG4";
+	public static final String GROUP_G4_LINK_JSON_AD= "G4LinkJsonAd";
+	public static final String GROUP_G2_JSON_INVENTORY_JSON_AD= "G2JsonInventoryJsonAd";
+	public static final String GROUP_G2_JSON_INVENTORY_HTML_AD= "G2JsonInventoryHtmlAd";
+	public static final String COUNTRY_CODE = "Country Code";
+	public static final String MODEL_CODE = "Model Code";
+	public static final String LINK_FINDER = "Link Finder";
+	public static final String BLOCK_DATA_FINDER = "Block Data Finder";
+	public static final String TRIM = "Trim";
+	public static final String VEHICLE_FEATURES="Vehicle Features";
+	public static final String VEHICLE_DESC="Vehicle Description";
+	public static final String DEALER_NAME="Dealer Name";
+	public static final String DEALER_CITY="Dealer City";
+	public static final String DEALER_PROVINCE="Dealer Province";
+	public static final String DEALER_POSTAL_CODE="Dealer Postal Code";
+	public static final String LISTING_DATE="Listing Date";
+	public static final String SELLER_NAME="Seller Name";
+	public static final String DEALER_FLAG="Dealer Flag";
+	public static final String LOCALIZED_COUNTRY_CODE = "Localized Country Code";
+	public static final String FRANCE_CODE = "FR";
+	public static final String MIN_YEAR = "1947";
+	public static final String WOWO_LOG_FIELD_COUNT=ConstantParameters.getLoggingWOWO(); //ON/OFF
+	public static final String PUB_CODE = "PubCode";
+	public static final String DOWNLOAD_PAGE = "Download Page";
+	public static final String UNWANTED_BLOCK_DATA = "Unwanted Block Data";
+	public static final String INVENTORY_URLS = "inventoryUrls";
+	public static final String PRICE_IN_FRENCH = "frenchPrice";
+	public static final String SEARCH_MILEAGE = "searchMileage";
+	public static final String SEARCH_BY_ATTRIBUTE = "searchByAttribute";
+	public static final String SEARCH_ELEM_FRONT_END_TEXT= "searchElementWithFrontEndText";
+	public static final String LINK_BY_TEXT = "linkByText";
+	public static final String THREAD_DELAY=ConstantParameters.getThreadDelay(); //True/False
+	public static final String SELENIUM_REQUIRED=ConstantParameters.getSeleniumRequired(); //Yes/No
+	public static final String THREAD_DELAY_TIME=ConstantParameters.getThreadDelayTime(); //10
+	public static final String MAKE_MODEL_YEAR_DETAIL= "MakeModelYearDetail";
+	public static final String LINK_FROM_VIEW_SOURCE="linkFromViewSource";
+	public static final String DO_NOT_VALIDATE_SALES_NUM="doNotValidateSalesNum";
+	public static final String WIX_LINK_FROM_VIEW_SOURCE="wixLinkFromViewSource";
+	public static final String PHONE_FROM_VIEW_SOURCE="phoneFromViewSource";
+	public static final String PHONE_BY_CLICK="phoneByClick";
+	public static final String PHONE_BY_DIRECT_LINK="phoneByDirectLink"; //Jsoup and PhantomJS both used here
+	public static final String LINKS_BY_PATH_VARIABLE="linksByPathVariable";
+	public static final String LINKS_BY_PATH_VARIABLE_IN_JSON_PAGE="linksByPathVariableInJsonPage";
+	public static final String WEBSCRAPPER_MODE=ConstantParameters.getWebScrapperMode(); //MANUAL or AUTO
+	public static final String SHEET_NAME=ConstantParameters.getSheetName(); //Sheet1
+	public static final String TRAINING_SHEET_NAME=ConstantParameters.getTrainingDataSheetName();
+	public static final String VIN_FROM_VIEW_SOURCE="vinFromViewSource";
+	public static final String IMAGE_URL = "Image Url";
+	public static final String VEHICLE_STATUS = "Vehicle Status";
+	public static final String GET_ALL_ELEMENTS = "getAllElements";
+	public static final String GET_BY_REGEX = "getByRegexSelector";
+	public static final String GET_FIELD_TEXT_WITH_SPACE = "getFieldTextWithSpace";
+	
+}
